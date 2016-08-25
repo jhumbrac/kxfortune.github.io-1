@@ -1,6 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -13,16 +14,13 @@ header {
 	background-color: #FFC24C;
 	padding: 20px;
 }
-
-h1, h2 {
-	text-align: left;
+nav {
+	float:right;
 }
-
-aside {
-	float: right;
+section {
+	padding:4em 0;
 }
-
-h3 {
+h2 {
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -31,9 +29,7 @@ a {
 	text-decoration: none;
 }
 
-img {
-	width: 100%;
-}
+img {width: 400px;}
 
 footer {
 		background-color: #FFC24C;
@@ -41,4 +37,13 @@ footer {
 		color: #000;
 		font-size: 14px;
 		text-align: center;
+}
+#splash {
+	background:url(../images/kitchen.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:90vh;
+}
+#splash div {
+	margin:5em;
 }
